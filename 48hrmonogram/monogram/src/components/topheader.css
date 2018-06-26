@@ -1,0 +1,19 @@
+/* .container-fluid{
+    min-height: 30px;
+    background: white;
+    position: top;
+  } */
+
+  .mono-logo {
+    width: 250px;
+    right:0px;
+    top:0px;
+    position:relative;
+    
+  }
+  /* .span-left {
+    text-align: left;
+  }
+  .span-right {
+    text-align: right;
+  } */
