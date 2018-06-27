@@ -1,11 +1,14 @@
 .lower-header{
-    min-height: 100px;
+    min-height: 70px;
     background: #C2CECC;
     position: relative;
     margin-top: 50px;
   }
 
-.span-left{
-    color: black;
+.span{
+    color: white;
+    font-family: bodini;
+    padding-top: 10px;
+    position: absolute;
 
 }

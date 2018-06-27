@@ -11,6 +11,11 @@
     position:relative;
     
   }
+  .side {
+    position: absolute;
+    padding-top: 30px;
+    font-family: bodini;
+  }
   /* .span-left {
     text-align: left;
   }
