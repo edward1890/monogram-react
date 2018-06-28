@@ -1,14 +1,33 @@
-/* .footer {
-    min-height: 100px;
-    background: #E5E5E5;
-    position: bottom;
+.footer {
+    min-height: 10%;
+    background: #C2CECC;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  } 
+
+  .f-logo {
+    width: 12%;
+    padding-right: 5%;
+    padding-top: 3%;
   }
-   */
-  .footer span {
+  
+  .i-logo {
+    width: 12%;
+    padding-right: 5%;
+    padding-top: 3%;
+  }
+  .p-logo {
+    width: 7%;
+    padding-top: 3%;
+   
+  }
+  
+  /* .footer span {
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
     padding: 3px;
     background: #B8B8B8;
-  }
+  } */

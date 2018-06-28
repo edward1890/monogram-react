@@ -5,17 +5,20 @@
   } */
 
   .mono-logo {
-    width: 250px;
-    right:0px;
-    top:0px;
-    position:relative;
+    width: 60%;
+    /* position:relative; */
     
   }
-  .side {
-    position: absolute;
-    padding-top: 30px;
+  .text {
+    /* position: absolute; */
+    padding-top: 15%;
     font-family: bodini;
+    font-size: 90%;
+    color: black;
   }
+  /* .toppy {
+    min-height: 15%;
+  } */
   /* .span-left {
     text-align: left;
   }

@@ -5,12 +5,12 @@ const Lowerheader = () => (
   <div className="lower-header">
     <div className="row">
       {/* <div className="col-md-1"></div> */}
-      <div className="col-md-4">
-        <span className="span">STEP ONE: Enter your text/name</span>
+      <div className="col-md-4 text-center">
+        <p className="text1">STEP ONE: Enter your text/name</p>
       </div>
       <div className="col-md-3"></div>
-      <div className="col-md-4">
-        <span className="span">STEP TWO: Select this font</span>
+      <div className="col-md-4 text-center">
+        <p className="text1">STEP TWO: Select this font</p>
       <div className="col-md-1"></div>
       </div>
 

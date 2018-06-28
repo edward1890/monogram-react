@@ -1,14 +1,22 @@
 .lower-header{
-    min-height: 70px;
+    min-height: 20%;
     background: #C2CECC;
-    position: relative;
-    margin-top: 50px;
+    
   }
 
-.span{
+/* .span{
     color: white;
     font-family: bodini;
     padding-top: 10px;
     position: absolute;
 
-}
+} */
+.text1{
+    
+    margin-top: 5%;
+    font-family: bodini;
+    font-size: 90%;
+    color: white;
+    
+
+  }

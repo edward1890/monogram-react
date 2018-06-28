@@ -1,61 +1,68 @@
-import React, {Fragment} from 'react'
-import {inject, observer} from 'mobx-react'
+import React, { Component } from "react";
 
-@inject('store')
-@observer
-class FontPreviews extends React.Component {
-    render() {
-        return (
-            <div className="row font-previews-grid">
-                {this.props.store.fonts.filter(font => font.etsyOptionValue).map(font => {
-                    return (
-                        <div className="col-12 col-md-6 mb-md-4 d-flex">
-                            <div
-                                key={font.name}
-                                className="font-card w-100 py-3 px-md-3"
-                                onClick={() => this.onClick(font)}
-                            >
-                                <h1
-                                    className={`mb-3 mb-lg-4 mt-auto ${font.forceUppercase ? 'text-uppercase' : ''} font--${
-                                        font.fontFamily
-                                        }`}
-                                    style={font.leftOffset ? {
-                                        marginLeft: `${font.leftOffset}em`,
-                                        padding: '.3em 0',
-                                    } : {}}
-                                >
-								<span
-                                    style={{
-                                        fontSize: `${font.fontSizeAdjust}em`,
-                                        letterSpacing: `${font.letterSpacing}px`,
-                                    }}
-                                >
-									{this.props.store.textOrPlaceholder}
-								</span>
-                                </h1>
-                                <div className="font-card-meta row justify-content-between mt-auto">
-                                    <span className="col text-muted small">{font.name}</span>
-                                    <button className="col btn btn-link p-0">
-                                        Pick this font <i className="fas fa-arrow-right"/>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    )
-                })}
-            </div>
-        )
+import Card from './Card';
+
+class Form extends Component {
+    // Setting the component's initial state
+    constructor(props) {
+        super(props);
+
+        this.fonts = [
+            'Source Sans Pro',
+            'Work Sans',
+            'Roboto',
+            'brookyln',
+        ]
+        this.state = {
+            preview: "test",
+          };
     }
 
-    onClick = font => {
-        this.props.store.updateFont(font)
-        this.props.store.nextStep()
+
+
+// @inject('store')
+// @observer
+handleInputChange = event => {
+    // Getting the value and name of the input which triggered the change
+    let value = event.target.value;
+    const name = event.target.name;
+
+    if (name === "preview") {
+      value = value.substring(0, 15);
+    }
+    // Updating the input's state
+    this.setState({
+      [name]: value
+    });
+  };
+  render() {
+    // Notice how each input has a `value`, `name`, and `onChange` prop
+    return (
+      <div>
+       
+        <form className="form">
+          <input
+            value={this.state.preview}
+            name="preview"
+            onChange={this.handleInputChange}
+            type="text"
+            placeholder="preview"
+          /> </form>
+
+        { this.fonts.map((font, index) => (
+            <Card key={ index }
+                font={ font }
+                inputText={ this.state.preview }
+            />
+        ))}
+        
+
+      </div>
+
+        );
     }
 }
 
-export default FontPreviews
-
-
-
+export default Form;
 // WEBPACK FOOTER //
 // ./src/components/fontPreviews.js
