@@ -459,6 +459,18 @@
     
 }
 
+@font-face {
+    font-family: 'bodoni_b';
+    font-style: normal;
+   
+    src:
+      url('../Fonts/Bodoni_bold.ttc') format('truetype');
+  }
+
+.bodoni_b{
+    font-family: 'bodoni_b';
+    
+}
 /* .card {
     background: #C2CECC;
     padding-right: 1%;
