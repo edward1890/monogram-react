@@ -8,7 +8,7 @@ const Card = (props) => (
     // </div>
 
   
-    <div className="col-10">
+    <div className="col-sm-10 col-md-9">
       <div className="card border-secondary mb-3" style={{width: "100%"}}>
         <div className="card-header" style={{ fontFamily: props.font }}>
         {props.font}

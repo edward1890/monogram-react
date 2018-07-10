@@ -15,11 +15,11 @@ const Topheader = () => (
       <a href="https://www.etsy.com/shop/48HourMonogram"><img src= {logo} className="mono-logo" alt="logo"></img></a>
       </div>
       {/* <div className="col-md-1"></div> */}
-      <div className="col-md-2 text-center">
+      <div className="col-md-4 text-center">
       <a href="https://www.etsy.com/shop/48HourMonogram"><p className="text">Shop Now!</p></a>
       </div>
-      <div className="col-md-2">
-      </div>
+      {/* <div className="col-md-2">
+      </div> */}
     </div>
 
   );

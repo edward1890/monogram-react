@@ -106,19 +106,18 @@ handleInputChange = event => {
           
             <div key={ index } className="col-12 col-sm-12 col-md-6 col-lg-6">
               <div className="row">
-              <div className="col-1"></div>
+              <div className={index % 2 === 0 ? "col-sm-1 col-md-2 " : "col-sm-1 col-md-1 " }></div>
 
                   <Card
                       url= { font.url }
                       font={ font.font }
                       inputText={ this.state.preview }
                   />
-              <div className="col-1"></div>
+              <div className={ index % 2 === 0 ? "col-sm-1 col-md-1 " : "col-sm-1 col-md-2 " }></div>
               </div>
             </div>
         ))}
-        <div className="col-1 col-md-1"></div>
-         
+   
     
 
       </div></div>

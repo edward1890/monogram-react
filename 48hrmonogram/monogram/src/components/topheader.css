@@ -6,13 +6,14 @@
 
   .mono-logo {
     width: 60%;
+    margin-top: 20px;
     
     /* position:relative; */
     
   }
   .text {
     position: relative;
-    margin-top: 34px;
+    margin-top: 54px;
     
     font-family: bodoni;
     font-size: 1em;
