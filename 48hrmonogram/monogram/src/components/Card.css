@@ -1,0 +1,481 @@
+@font-face {
+    font-family: 'Amelia';
+    font-style: normal;
+    font-weight: bold;
+  
+    src:
+      url('../Fonts/Amelia.ttf') format('truetype');
+  }
+
+.amelia {
+    font-family: 'Amelia';
+    
+}
+
+@font-face {
+    font-family: 'Aubrey';
+    font-style: normal;
+    font-weight: bold;
+   
+    src:
+      url('../Fonts/Aubrey.ttf') format('truetype');
+  }
+
+.Aubrey {
+    font-family: 'Aubrey';
+    
+}
+@font-face {
+    font-family: 'Bodhi';
+    font-style: normal;
+    /* font-weight: bold; */
+   
+    src:
+      url('../Fonts/Bodhi.ttf') format('truetype');
+  }
+
+.Bodhi {
+    font-family: 'Bodhi';
+    
+}
+@font-face {
+    font-family: 'Brooke';
+    font-style: normal;
+    /* font-weight: bold; */
+   
+    src:
+      url('../Fonts/Brooke.ttf') format('truetype');
+  }
+
+.Brooke {
+    font-family: 'Brooke';
+    
+}
+@font-face {
+    font-family: 'Brooklyn';
+    font-style: normal;
+    font-weight: bold;
+   
+    src:
+      url('../Fonts/Brooklyn.otf') format('opentype');
+  }
+
+.Brooklyn {
+    font-family: 'Brooklyn';
+    
+}
+
+@font-face {
+    font-family: 'Cailey';
+    font-style: normal;
+    font-weight: bold;
+   
+    src:
+      url('../Fonts/Cailey.otf') format('opentype');
+  }
+
+.Cailey {
+    font-family: 'Cailey';
+    
+}
+@font-face {
+    font-family: 'Cameron';
+    font-style: normal;
+    font-weight: bold;
+   
+    src:
+      url('../Fonts/Cameron.ttf') format('truetype');
+  }
+
+.Cameron {
+    font-family: 'Cameron';
+    
+}
+@font-face {
+    font-family: 'Charlie';
+    font-style: normal;
+    font-weight: bold;
+   
+    src:
+      url('../Fonts/Charlie.ttf') format('truetype');
+  }
+
+.Charlie {
+    font-family: 'Charlie';
+    
+}
+
+@font-face {
+    font-family: 'Chloe';
+    font-style: normal;
+    font-weight: bold;
+   
+    src:
+      url('../Fonts/Chloe.ttf') format('truetype');
+  }
+
+.Chloe {
+    font-family: 'Chloe';
+    
+}
+@font-face {
+    font-family: 'Chris';
+    font-style: normal;
+    font-weight: bold;
+   
+    src:
+      url('../Fonts/chris.ttf') format('truetype');
+  }
+
+.Chris {
+    font-family: 'Chris';
+    
+}
+@font-face {
+    font-family: 'Dakota';
+    font-style: normal;
+    font-weight: bold;
+   
+    src:
+      url('../Fonts/dakota.otf') format('opentype');
+  }
+
+.Dakota {
+    font-family: 'Dakota';
+    
+}
+
+@font-face {
+    font-family: 'Emma';
+    font-style: normal;
+    font-weight: bold;
+   
+    src:
+      url('../Fonts/Emma.ttf') format('truetype');
+  }
+
+.Emma {
+    font-family: 'Emma';
+    
+}
+@font-face {
+    font-family: 'Grayson';
+    font-style: normal;
+    font-weight: bold;
+   
+    src:
+      url('../Fonts/Grayson.ttf') format('truetype');
+  }
+
+.Grayson {
+    font-family: 'Grayson';
+    
+}
+@font-face {
+    font-family: 'Hadley';
+    font-style: normal;
+    font-weight: bold;
+   
+    src:
+      url('../Fonts/Hadley.ttf') format('truetype');
+  }
+
+.Hadley {
+    font-family: 'Hadley';
+    
+}
+@font-face {
+    font-family: 'Hannah';
+    font-style: normal;
+    font-weight: bold;
+   
+    src:
+      url('../Fonts/Hannah.ttf') format('truetype');
+  }
+
+.Hannah {
+    font-family: 'Hannah';
+    
+}
+
+@font-face {
+    font-family: 'Jack';
+    font-style: normal;
+    font-weight: bold;
+   
+    src:
+      url('../Fonts/Jack.ttf') format('truetype');
+  }
+
+.Jack {
+    font-family: 'Jack';
+    
+}
+
+@font-face {
+    font-family: 'Kendall';
+    font-style: normal;
+    font-weight: bold;
+   
+    src:
+      url('../Fonts/Kendall.ttf') format('truetype');
+  }
+
+.Kendall {
+    font-family: 'Kendall';
+    
+}
+
+@font-face {
+    font-family: 'Kyle';
+    font-style: normal;
+    font-weight: bold;
+   
+    src:
+      url('../Fonts/Kyle.otf') format('opentype');
+  }
+
+.Kyle {
+    font-family: 'Kyle';
+    
+}
+@font-face {
+    font-family: 'Landon';
+    font-style: normal;
+    font-weight: bold;
+   
+    src:
+      url('../Fonts/Landon.ttf') format('truetype');
+  }
+
+.Landon {
+    font-family: 'Landon';
+    
+}
+@font-face {
+    font-family: 'Layla';
+    font-style: normal;
+    font-weight: bold;
+   
+    src:
+      url('../Fonts/Layla.ttf') format('truetype');
+  }
+
+.Layla {
+    font-family: 'Layla';
+    
+}
+
+@font-face {
+    font-family: 'Liam';
+    font-style: normal;
+    font-weight: bold;
+   
+    src:
+      url('../Fonts/Liam.otf') format('opentype');
+  }
+
+.Liam {
+    font-family: 'Liam';
+    
+}
+
+@font-face {
+    font-family: 'Mickey';
+    font-style: normal;
+    font-weight: bold;
+   
+    src:
+      url('../Fonts/Mickey.otf') format('opentype');
+  }
+
+.Mickey {
+    font-family: 'Mickey';
+    
+}
+
+@font-face {
+    font-family: 'Noah';
+    font-style: normal;
+    font-weight: bold;
+   
+    src:
+      url('../Fonts/Noah.otf') format('opentype');
+  }
+
+.Noah {
+    font-family: 'Noah';
+    
+}
+
+@font-face {
+    font-family: 'Olivia';
+    font-style: normal;
+    font-weight: bold;
+   
+    src:
+      url('../Fonts/Olivia.otf') format('opentype');
+  }
+
+.Olivia {
+    font-family: 'Olivia';
+    
+}
+
+@font-face {
+    font-family: 'Riley';
+    font-style: normal;
+    font-weight: bold;
+   
+    src:
+      url('../Fonts/Riley.otf') format('opentype');
+  }
+
+.Riley {
+    font-family: 'Riley';
+    
+}
+@font-face {
+    font-family: 'Skywalker';
+    font-style: normal;
+    font-weight: bold;
+   
+    src:
+      url('../Fonts/skywalker.ttf') format('truetype');
+  }
+
+.Skywalker {
+    font-family: 'Skywalker';
+    
+}
+
+@font-face {
+    font-family: 'Zoe';
+    font-style: normal;
+    font-weight: bold;
+   
+    src:
+      url('../Fonts/Zoe.otf') format('opentype');
+  }
+
+.Zoe {
+    font-family: 'Zoe';
+    
+}
+
+@font-face {
+    font-family: 'Charlotte';
+    font-style: normal;
+    font-weight: bold;
+   
+    src:
+      url('../Fonts/Charlotte.otf') format('opentype');
+  }
+
+.Charlotte{
+    font-family: 'Charlotte';
+    
+}
+
+@font-face {
+    font-family: 'Katie';
+    font-style: normal;
+    font-weight: bold;
+   
+    src:
+      url('../Fonts/Katie.ttf') format('truetype');
+  }
+
+.Katie{
+    font-family: 'Katie';
+    
+}
+
+@font-face {
+    font-family: 'Mackenzie';
+    font-style: normal;
+    font-weight: bold;
+   
+    src:
+      url('../Fonts/Mackenzie.ttf') format('truetype');
+  }
+
+.Mackenzie{
+    font-family: 'Mackenzie';
+    
+}
+
+@font-face {
+    font-family: 'Samantha';
+    font-style: normal;
+    font-weight: bold;
+   
+    src:
+      url('../Fonts/Samantha.ttf') format('truetype');
+  }
+
+.Samantha{
+    font-family: 'Samantha';
+    
+}
+@font-face {
+    font-family: 'Blakely';
+    font-style: normal;
+    font-weight: bold;
+   
+    src:
+      url('../Fonts/Blakely.ttf') format('truetype');
+  }
+
+.Blakely{
+    font-family: 'Blakely';
+    
+}
+@font-face {
+    font-family: 'Lincoln';
+    font-style: normal;
+    font-weight: bold;
+   
+    src:
+      url('../Fonts/Lincoln.ttf') format('truetype');
+  }
+
+.Lincoln{
+    font-family: 'Lincoln';
+    
+}
+
+@font-face {
+    font-family: 'bodoni';
+    font-style: normal;
+    font-weight: bold;
+   
+    src:
+      url('../Fonts/Bodoni72.ttc') format('truetype');
+  }
+
+.bodoni{
+    font-family: 'bodoni';
+    
+}
+
+/* .card {
+    background: #C2CECC;
+    padding-right: 1%;
+} */
+.card-header {
+    font-size:2em;
+}
+.card-text {
+    font-size: 6em;
+    font-weight: bold;
+
+}
+.card {
+    overflow: auto;
+    white-space: nowrap;
+}
+.btn {
+    background: #C2CECC;
+    font-family: bodini;
+}

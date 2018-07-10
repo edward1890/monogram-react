@@ -6,18 +6,20 @@
 
   .mono-logo {
     width: 60%;
+    
     /* position:relative; */
     
   }
   .text {
-    /* position: absolute; */
-    padding-top: 15%;
-    font-family: bodini;
-    font-size: 90%;
+    position: relative;
+    margin-top: 34px;
+    
+    font-family: bodoni;
+    font-size: 1em;
     color: black;
   }
   /* .toppy {
-    min-height: 15%;
+    min-height: 30px;
   } */
   /* .span-left {
     text-align: left;

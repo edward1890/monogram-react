@@ -1,4 +1,10 @@
 /* *{outline: red 1px solid}; */
+@font-face {
+  font-family: 'Brooklyn';
+  src: url('../Fonts/Brooklyn.otf') format('woff2'),
+}
+
+
 .App {
   text-align: center;
 }

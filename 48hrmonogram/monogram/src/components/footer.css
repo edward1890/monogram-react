@@ -1,7 +1,7 @@
 .footer {
     min-height: 10%;
     background: #C2CECC;
-    position: absolute;
+    position: relative;
     bottom: 0;
     right: 0;
   } 
@@ -22,7 +22,17 @@
     padding-top: 3%;
    
   }
-  
+  .text2{
+    
+    margin-top: 5%;
+    font-family: bodoni;
+    font-size: 1em;
+    color: white;
+    /* margin-left: 3%;
+    margin-right: 3%; */
+    
+
+  }
   /* .footer span {
     position: absolute;
     bottom: 0;

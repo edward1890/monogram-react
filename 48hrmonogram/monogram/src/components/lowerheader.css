@@ -1,6 +1,9 @@
 .lower-header{
-    min-height: 20%;
+    min-height: 26%;
     background: #C2CECC;
+    position: relative;
+    margin-top: 2%;
+    margin-bottom: 1%;
     
   }
 
@@ -14,8 +17,8 @@
 .text1{
     
     margin-top: 5%;
-    font-family: bodini;
-    font-size: 90%;
+    font-family: bodoni;
+    font-size: 1em;
     color: white;
     
 
