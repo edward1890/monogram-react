@@ -464,7 +464,8 @@
     padding-right: 1%;
 } */
 .card-header {
-    font-size:2em;
+    font-size: 1.3em;
+    font-family: bodoni;
 }
 .card-text {
     font-size: 6em;
@@ -477,5 +478,5 @@
 }
 .btn {
     background: #C2CECC;
-    font-family: bodini;
+    font-family: bodoni;
 }

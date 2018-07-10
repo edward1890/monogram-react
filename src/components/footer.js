@@ -15,7 +15,7 @@ Etsy does not endorse or sponsor this app.</p></div>
    <a href='https://www.pinterest.com/48hourmonogram/'><img src= {plogo} className="p-logo"  alt="plogo"></img></a>
   </div>
   <div className="col-md-3 text-center"><p className="text2">Contact us through the Etsy platform
-or email us! 48hourmonogram@gmail.com</p> </div>
+or email us!<a className="text2" href= "mailto:48hourmonogram@gmail.com"> 48hourmonogram@gmail.com</a></p> </div>
 <div className="col-md-1"></div>
 </div>
 );

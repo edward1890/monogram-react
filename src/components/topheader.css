@@ -13,10 +13,10 @@
   }
   .text {
     position: relative;
-    margin-top: 54px;
+    margin-top: 50px;
     
     font-family: bodoni;
-    font-size: 1em;
+    font-size: 1.3em;
     color: black;
   }
   /* .toppy {
