@@ -8,10 +8,10 @@ const Card = (props) => (
     // </div>
 
   
-    <div className="col-sm-10 col-md-9">
+    <div className="col-sm-10 col-md-12 cardz">
       <div className="card border-secondary mb-3" style={{width: "100%"}}>
         <div className="card-header">
-        {props.font}
+        {props.name}
         </div>
         <div className="card-body">
           <p className={`card-text ${props.font.toLowerCase()} `} style={{ fontFamily: props.font }}>{ props.inputText }</p>
@@ -25,7 +25,8 @@ const Card = (props) => (
 Card.propTypes = {
   font: PropTypes.string.isRequired,
   inputText: PropTypes.string.isRequired,
-  url: PropTypes.string.isRequired
+  url: PropTypes.string.isRequired,
+  fontName: PropTypes.string.isRequired
 }
 
 export default Card;

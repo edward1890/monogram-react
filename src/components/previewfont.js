@@ -12,34 +12,34 @@ class Form extends Component {
         super(props);
 
         this.fonts = [
-            { font: 'Katie', url: "https://www.etsy.com/listing/280843206/wooden-name-sign-12-to-55-wide-office?ref=shop_home_active_4" },
-            { font: 'Cailey', url: "https://www.etsy.com/shop/48HourMonogram?ref=l2-shopheader-name&section_id=18551718" },
-            { font: 'Olivia', url: "https://www.etsy.com/shop/48HourMonogram?ref=l2-shopheader-name&section_id=18551718" },
-            { font: 'Hadley', url: "https://www.etsy.com/shop/48HourMonogram?ref=l2-shopheader-name&section_id=18551718" },
-            { font: 'Samantha', url: "https://www.etsy.com/shop/48HourMonogram?ref=l2-shopheader-name&section_id=18551718" },
-            { font: 'Amelia', url: "https://www.etsy.com/shop/48HourMonogram?ref=l2-shopheader-name&section_id=18551718" },
-            { font: 'Charlotte', url: "https://www.etsy.com/listing/293648933/wooden-name-sign-12-to-55-wide-office?ref=shop_home_active_6" },
-            { font: 'Kendall', url: "https://www.etsy.com/shop/48HourMonogram?ref=l2-shopheader-name&section_id=18551718" },
-            { font: 'Brooke', url: "https://www.etsy.com/shop/48HourMonogram?ref=l2-shopheader-name&section_id=18551718" },
-            { font: 'Mackenzie', url: "https://www.etsy.com/shop/48HourMonogram?ref=l2-shopheader-name&section_id=18551718" },
-            { font: 'Bodhi', url: "https://www.etsy.com/listing/294355523/wooden-name-sign-12-to-55-wide-office?ref=shop_home_active_5" },
-            { font: 'Brooklyn', url: "https://www.etsy.com/listing/280842938/wooden-name-sign-12-to-55-wide-office?ref=shop_home_active_2" },
-            { font: 'Cameron', url: "https://www.etsy.com/shop/48HourMonogram?ref=l2-shopheader-name&section_id=18551718" },
-            { font: 'Liam', url: "https://www.etsy.com/shop/48HourMonogram?ref=l2-shopheader-name&section_id=18551718" },
-            { font: 'Grayson', url: "https://www.etsy.com/shop/48HourMonogram?ref=l2-shopheader-name&section_id=18551718" },
-            { font: 'Lincoln', url: "https://www.etsy.com/shop/48HourMonogram?ref=l2-shopheader-name&section_id=18551718" },
-            { font: 'Emma', url: "https://www.etsy.com/listing/280135010/wooden-name-sign-12-to-55-wide-kids?ref=shop_home_active_7&ep_click=1" },
-            { font: 'Zoe', url: "https://www.etsy.com/shop/48HourMonogram?ref=l2-shopheader-name&section_id=18551718" },
-            { font: 'Riley', url: "https://www.etsy.com/shop/48HourMonogram?ref=l2-shopheader-name&section_id=18551718" },
-            { font: 'Chris', url: "https://www.etsy.com/shop/48HourMonogram?ref=l2-shopheader-name&section_id=18551718" },
-            { font: 'Kyle', url: "https://www.etsy.com/shop/48HourMonogram?ref=l2-shopheader-name&section_id=18551718" },
-            { font: 'Layla', url: "https://www.etsy.com/listing/604391158/wooden-name-sign-12-to-55-wide-custom?ref=shop_home_active_6" },
-            { font: 'Aubrey', url: "https://www.etsy.com/shop/48HourMonogram?ref=l2-shopheader-name&section_id=18551718" },
-            { font: 'Chloe', url: "https://www.etsy.com/shop/48HourMonogram?ref=l2-shopheader-name&section_id=18551718" },
-            { font: 'Dakota', url: "https://www.etsy.com/shop/48HourMonogram?ref=l2-shopheader-name&section_id=18551718" },
-            { font: 'Landon', url: "https://www.etsy.com/listing/607258236/wooden-name-sign-12-to-55-wide-custom?ref=shop_home_active_1" },
-            { font: 'Blakely', url: "https://www.etsy.com/shop/48HourMonogram?ref=l2-shopheader-name&section_id=18551718" },
-            { font: 'Skywalker', url: "https://www.etsy.com/shop/48HourMonogram?ref=l2-shopheader-name&section_id=18551718" },
+            { font: 'Katie', url: "https://www.etsy.com/listing/280843206/wooden-name-sign-12-to-55-wide-office?ref=shop_home_active_4", fontName: 'Katie'},
+            { font: 'Cailey', url: "https://www.etsy.com/shop/48HourMonogram?ref=l2-shopheader-name&section_id=18551718", fontName: 'Cailey' },
+            { font: 'Olivia', url: "https://www.etsy.com/shop/48HourMonogram?ref=l2-shopheader-name&section_id=18551718", fontName: 'Olivia'  },
+            { font: 'Hadley', url: "https://www.etsy.com/shop/48HourMonogram?ref=l2-shopheader-name&section_id=18551718", fontName: 'Hadley'  },
+            { font: 'Samantha', url: "https://www.etsy.com/shop/48HourMonogram?ref=l2-shopheader-name&section_id=18551718", fontName: 'Samantha'  },
+            { font: 'Amelia', url: "https://www.etsy.com/shop/48HourMonogram?ref=l2-shopheader-name&section_id=18551718", fontName: 'Amelia'  },
+            { font: 'Charlotte', url: "https://www.etsy.com/listing/293648933/wooden-name-sign-12-to-55-wide-office?ref=shop_home_active_6", fontName: 'Charlotte'  },
+            { font: 'Kendall', url: "https://www.etsy.com/shop/48HourMonogram?ref=l2-shopheader-name&section_id=18551718", fontName: 'Kendall'  },
+            { font: 'Brooke', url: "https://www.etsy.com/shop/48HourMonogram?ref=l2-shopheader-name&section_id=18551718" , fontName: 'Brooke' },
+            { font: 'Mackenzie', url: "https://www.etsy.com/shop/48HourMonogram?ref=l2-shopheader-name&section_id=18551718" , fontName: 'Mackenzie' },
+            { font: 'Bodhi', url: "https://www.etsy.com/listing/294355523/wooden-name-sign-12-to-55-wide-office?ref=shop_home_active_5" , fontName: 'Bodhi' },
+            { font: 'Brooklyn', url: "https://www.etsy.com/listing/280842938/wooden-name-sign-12-to-55-wide-office?ref=shop_home_active_2", fontName: 'Brooklyn'  },
+            { font: 'Cameron', url: "https://www.etsy.com/shop/48HourMonogram?ref=l2-shopheader-name&section_id=18551718", fontName: 'Cameron'  },
+            { font: 'Liam', url: "https://www.etsy.com/shop/48HourMonogram?ref=l2-shopheader-name&section_id=18551718" , fontName: 'Liam' },
+            { font: 'Grayson', url: "https://www.etsy.com/shop/48HourMonogram?ref=l2-shopheader-name&section_id=18551718", fontName: 'Grayson'  },
+            { font: 'Lincoln', url: "https://www.etsy.com/shop/48HourMonogram?ref=l2-shopheader-name&section_id=18551718", fontName: 'Lincoln'  },
+            { font: 'Emma', url: "https://www.etsy.com/listing/280135010/wooden-name-sign-12-to-55-wide-kids?ref=shop_home_active_7&ep_click=1", fontName: 'Emma'  },
+            { font: 'Zoe', url: "https://www.etsy.com/shop/48HourMonogram?ref=l2-shopheader-name&section_id=18551718", fontName: 'Zoe'  },
+            { font: 'Riley', url: "https://www.etsy.com/shop/48HourMonogram?ref=l2-shopheader-name&section_id=18551718", fontName: 'Riley'  },
+            { font: 'Chris', url: "https://www.etsy.com/shop/48HourMonogram?ref=l2-shopheader-name&section_id=18551718", fontName: 'Chris'  },
+            { font: 'Kyle', url: "https://www.etsy.com/shop/48HourMonogram?ref=l2-shopheader-name&section_id=18551718", fontName: 'Kyle'  },
+            { font: 'Layla', url: "https://www.etsy.com/listing/604391158/wooden-name-sign-12-to-55-wide-custom?ref=shop_home_active_6", fontName: 'Layla'  },
+            { font: 'Aubrey', url: "https://www.etsy.com/shop/48HourMonogram?ref=l2-shopheader-name&section_id=18551718", fontName: 'Aubrey'  },
+            { font: 'Chloe', url: "https://www.etsy.com/shop/48HourMonogram?ref=l2-shopheader-name&section_id=18551718", fontName: 'Chloe'  },
+            { font: 'Dakota', url: "https://www.etsy.com/shop/48HourMonogram?ref=l2-shopheader-name&section_id=18551718", fontName: 'Dakota'  },
+            { font: 'Landon', url: "https://www.etsy.com/listing/607258236/wooden-name-sign-12-to-55-wide-custom?ref=shop_home_active_1", fontName: 'Landon'  },
+            { font: 'Blakely', url: "https://www.etsy.com/shop/48HourMonogram?ref=l2-shopheader-name&section_id=18551718", fontName: 'Blakely (all lowercase only)'  },
+            { font: 'Skywalker', url: "https://www.etsy.com/shop/48HourMonogram?ref=l2-shopheader-name&section_id=18551718", fontName: 'Skywalker' },
 
         ]
         this.state = {
@@ -106,14 +106,15 @@ handleInputChange = event => {
           
             <div key={ index } className="col-12 col-sm-12 col-md-6 col-lg-6">
               <div className="row">
-              <div className={index % 2 === 0 ? "col-sm-1 col-md-2 " : "col-sm-1 col-md-1 " }></div>
+              {/* <div className={index % 2 === 0 ? "col-sm-1 col-md-2 " : "col-sm-1 col-md-1 " }></div> */}
 
                   <Card
                       url= { font.url }
                       font={ font.font }
+                      name={ font.fontName }
                       inputText={ this.state.preview }
                   />
-              <div className={ index % 2 === 0 ? "col-sm-1 col-md-1 " : "col-sm-1 col-md-2 " }></div>
+              {/* <div className={ index % 2 === 0 ? "col-sm-1 col-md-1 " : "col-sm-1 col-md-2 " }></div> */}
               </div>
             </div>
         ))}
