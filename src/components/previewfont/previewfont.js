@@ -110,7 +110,7 @@ handleInputChange = event => {
                   <Card
                       url= { font.url }
                       font={ font.font }
-                      name={ font.fontName }
+                      fontName={ font.fontName }
                       inputText={ this.state.preview }
                   />
        
