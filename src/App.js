@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import Footer from "./components/footer";
-import Topheader from "./components/topheader";
-import Lowerheader from "./components/lowerheader";
-import Form from "./components/previewfont.js"
+import Footer from "./components/footer/footer";
+import Topheader from "./components/topheader/topheader";
+import Lowerheader from "./components/lowerheader/lowerheader";
+import Form from "./components/previewfont/previewfont.js"
 // import logo from './images/main_logo.png';
-import './components/App.css';
+import './App.css';
 
 
 class App extends Component {

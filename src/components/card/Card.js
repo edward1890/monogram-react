@@ -2,11 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const Card = (props) => (
-    // <div style={{ fontFamily: props.font }}>
-    //     {/* <h2>{ props.font }</h2> */}
-    //     <p>{ props.inputText }</p>
-    // </div>
-
+ 
   
     <div className="col-sm-10 col-md-12 cardz">
       <div className="card border-secondary mb-3" style={{width: "100%"}}>

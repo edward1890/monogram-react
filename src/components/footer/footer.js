@@ -1,8 +1,8 @@
 import React from "react";
 import "./footer.css";
-import plogo from "../images/Pinterest_Logo.png"
-import flogo from "../images/FB_Logo.png"
-import ilogo from "../images/Insta_Logo.png"
+import plogo from "../../images/Pinterest_Logo.png"
+import flogo from "../../images/FB_Logo.png"
+import ilogo from "../../images/Insta_Logo.png"
 
 const Footer = () => (
 <div className="row footer">

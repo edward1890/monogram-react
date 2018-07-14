@@ -1,6 +1,5 @@
 import React from 'react'
-import { inject, observer } from 'mobx-react'
-import FontPreviews from './fontPreviews'
+// import FontPreviews from '../fontPreviews'
 
 @inject('store')
 @observer

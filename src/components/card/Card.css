@@ -4,7 +4,7 @@
     font-weight: bold;
   
     src:
-      url('../Fonts/Amelia.ttf') format('truetype');
+      url('../../Fonts/Amelia.ttf') format('truetype');
   }
 
 .amelia {
@@ -18,7 +18,7 @@
     font-weight: bold;
    
     src:
-      url('../Fonts/Aubrey.ttf') format('truetype');
+      url('../../Fonts/Aubrey.ttf') format('truetype');
   }
 
 .Aubrey {
@@ -31,7 +31,7 @@
     /* font-weight: bold; */
    
     src:
-      url('../Fonts/Bodhi.ttf') format('truetype');
+      url('../../Fonts/Bodhi.ttf') format('truetype');
   }
 
 .Bodhi {
@@ -44,7 +44,7 @@
     /* font-weight: bold; */
    
     src:
-      url('../Fonts/Brooke.ttf') format('truetype');
+      url('../../Fonts/Brooke.ttf') format('truetype');
   }
 
 .Brooke {
@@ -57,7 +57,7 @@
     font-weight: bold;
    
     src:
-      url('../Fonts/Brooklyn.otf') format('opentype');
+      url('../../Fonts/Brooklyn.otf') format('opentype');
   }
 
 .Brooklyn {
@@ -71,7 +71,7 @@
     font-weight: bold;
    
     src:
-      url('../Fonts/Cailey.otf') format('opentype');
+      url('../../Fonts/Cailey.otf') format('opentype');
   }
 
 .Cailey {
@@ -84,7 +84,7 @@
     font-weight: bold;
    
     src:
-      url('../Fonts/Cameron.ttf') format('truetype');
+      url('../../Fonts/Cameron.ttf') format('truetype');
   }
 
 .Cameron {
@@ -97,7 +97,7 @@
     font-weight: bold;
    
     src:
-      url('../Fonts/Charlie.ttf') format('truetype');
+      url('../../Fonts/Charlie.ttf') format('truetype');
   }
 
 .Charlie {
@@ -111,7 +111,7 @@
     font-weight: bold;
    
     src:
-      url('../Fonts/Chloe.ttf') format('truetype');
+      url('../../Fonts/Chloe.ttf') format('truetype');
   }
 
 .Chloe {
@@ -124,7 +124,7 @@
     font-weight: bold;
    
     src:
-      url('../Fonts/chris.ttf') format('truetype');
+      url('../../Fonts/chris.ttf') format('truetype');
   }
 
 .Chris {
@@ -137,7 +137,7 @@
     font-weight: bold;
    
     src:
-      url('../Fonts/dakota.otf') format('opentype');
+      url('../../Fonts/dakota.otf') format('opentype');
   }
 
 .Dakota {
@@ -151,7 +151,7 @@
     font-weight: bold;
    
     src:
-      url('../Fonts/Emma.ttf') format('truetype');
+      url('../../Fonts/Emma.ttf') format('truetype');
   }
 
 .Emma {
@@ -164,7 +164,7 @@
     font-weight: bold;
    
     src:
-      url('../Fonts/Grayson.ttf') format('truetype');
+      url('../../Fonts/Grayson.ttf') format('truetype');
   }
 
 .Grayson {
@@ -177,7 +177,7 @@
     font-weight: bold;
    
     src:
-      url('../Fonts/Hadley.ttf') format('truetype');
+      url('../../Fonts/Hadley.ttf') format('truetype');
   }
 
 .Hadley {
@@ -190,7 +190,7 @@
     font-weight: bold;
    
     src:
-      url('../Fonts/Hannah.ttf') format('truetype');
+      url('../../Fonts/Hannah.ttf') format('truetype');
   }
 
 .Hannah {
@@ -204,7 +204,7 @@
     font-weight: bold;
    
     src:
-      url('../Fonts/Jack.ttf') format('truetype');
+      url('../../Fonts/Jack.ttf') format('truetype');
   }
 
 .Jack {
@@ -218,7 +218,7 @@
     font-weight: bold;
    
     src:
-      url('../Fonts/Kendall.ttf') format('truetype');
+      url('../../Fonts/Kendall.ttf') format('truetype');
   }
 
 .Kendall {
@@ -232,7 +232,7 @@
     font-weight: bold;
    
     src:
-      url('../Fonts/Kyle.otf') format('opentype');
+      url('../../Fonts/Kyle.otf') format('opentype');
   }
 
 .Kyle {
@@ -245,7 +245,7 @@
     font-weight: bold;
    
     src:
-      url('../Fonts/Landon.ttf') format('truetype');
+      url('../../Fonts/Landon.ttf') format('truetype');
   }
 
 .Landon {
@@ -258,7 +258,7 @@
     font-weight: bold;
    
     src:
-      url('../Fonts/Layla.ttf') format('truetype');
+      url('../../Fonts/Layla.ttf') format('truetype');
   }
 
 .Layla {
@@ -272,7 +272,7 @@
     font-weight: bold;
    
     src:
-      url('../Fonts/Liam.otf') format('opentype');
+      url('../../Fonts/Liam.otf') format('opentype');
   }
 
 .Liam {
@@ -286,7 +286,7 @@
     font-weight: bold;
    
     src:
-      url('../Fonts/Mickey.otf') format('opentype');
+      url('../../Fonts/Mickey.otf') format('opentype');
   }
 
 .Mickey {
@@ -300,7 +300,7 @@
     font-weight: bold;
    
     src:
-      url('../Fonts/Noah.otf') format('opentype');
+      url('../../Fonts/Noah.otf') format('opentype');
   }
 
 .Noah {
@@ -314,7 +314,7 @@
     font-weight: bold;
    
     src:
-      url('../Fonts/Olivia.otf') format('opentype');
+      url('../../Fonts/Olivia.otf') format('opentype');
   }
 
 .Olivia {
@@ -328,7 +328,7 @@
     font-weight: bold;
    
     src:
-      url('../Fonts/Riley.otf') format('opentype');
+      url('../../Fonts/Riley.otf') format('opentype');
   }
 
 .Riley {
@@ -341,7 +341,7 @@
     font-weight: bold;
    
     src:
-      url('../Fonts/skywalker.ttf') format('truetype');
+      url('../../Fonts/skywalker.ttf') format('truetype');
   }
 
 .Skywalker {
@@ -355,7 +355,7 @@
     font-weight: bold;
    
     src:
-      url('../Fonts/Zoe.otf') format('opentype');
+      url('../../Fonts/Zoe.otf') format('opentype');
   }
 
 .Zoe {
@@ -369,7 +369,7 @@
     font-weight: bold;
    
     src:
-      url('../Fonts/Charlotte.otf') format('opentype');
+      url('../../Fonts/Charlotte.otf') format('opentype');
   }
 
 .Charlotte{
@@ -383,7 +383,7 @@
     font-weight: bold;
    
     src:
-      url('../Fonts/Katie.ttf') format('truetype');
+      url('../../Fonts/Katie.ttf') format('truetype');
   }
 
 .Katie{
@@ -397,7 +397,7 @@
     font-weight: bold;
    
     src:
-      url('../Fonts/Mackenzie.ttf') format('truetype');
+      url('../../Fonts/Mackenzie.ttf') format('truetype');
   }
 
 .Mackenzie{
@@ -411,7 +411,7 @@
     font-weight: bold;
    
     src:
-      url('../Fonts/Samantha.ttf') format('truetype');
+      url('../../Fonts/Samantha.ttf') format('truetype');
   }
 
 .Samantha{
@@ -424,7 +424,7 @@
     font-weight: bold;
    
     src:
-      url('../Fonts/Blakely.ttf') format('truetype');
+      url('../../Fonts/Blakely.ttf') format('truetype');
   }
 
 .Blakely{
@@ -437,7 +437,7 @@
     font-weight: bold;
    
     src:
-      url('../Fonts/Lincoln.ttf') format('truetype');
+      url('../../Fonts/Lincoln.ttf') format('truetype');
   }
 
 .Lincoln{
@@ -451,7 +451,7 @@
     font-weight: bold;
    
     src:
-      url('../Fonts/Bodoni72.ttc') format('truetype');
+      url('../../Fonts/Bodoni72.ttc') format('truetype');
   }
 
 .bodoni{
@@ -464,17 +464,14 @@
     font-style: normal;
    
     src:
-      url('../Fonts/Bodoni_bold.ttf') format('truetype');
+      url('../../Fonts/Bodoni_bold.ttf') format('truetype');
   }
 
 .bodoni_b{
     font-family: 'bodoni_b';
     
 }
-/* .card {
-    background: #C2CECC;
-    padding-right: 1%;
-} */
+
 .card-header {
     font-size: 1.3em;
     font-family: bodoni;
